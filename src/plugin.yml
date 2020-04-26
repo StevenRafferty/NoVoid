@@ -1,0 +1,11 @@
+name: NoVoid
+description: A simple plugin that teleports you to the spawn location when you enter the void
+version: 0.0.1
+author: Steven Rafferty
+main: net.stevenrafferty.novoid.Main
+
+commands:
+  novoidspawn:
+    usage: /novoidspawn
+    description: Sets the novoid spawn location when players fall into the void
+    permission: novoid.setspawn
